@@ -3,6 +3,9 @@
 document.getElementById('menuToggle').addEventListener('click', () => {
     document.body.classList.toggle('menu-toggler');
 });
+document.getElementById('navList').addEventListener('click', (e) => {
+    if (document.body.classList.contains('menu-toggler') && e.target.classList.contains('nav-link')) document.body.classList.remove('menu-toggler');
+});
 
 // Sticky navbar
 const header = document.getElementById('header'),

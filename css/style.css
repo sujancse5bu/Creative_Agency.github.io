@@ -383,6 +383,7 @@ button.btn.hero-btn:hover, .btn:hover{
     background: url('../img/shape-9-copy.png');
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: -2;
 }
 .video::before{
     content: '';
@@ -395,6 +396,7 @@ button.btn.hero-btn:hover, .btn:hover{
     background: url('../img/shape-9.png');
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: -2;
 }
 
 
